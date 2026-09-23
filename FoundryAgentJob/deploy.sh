@@ -10,9 +10,9 @@
 #
 set -euo pipefail
 
-SUBSCRIPTION_ID="b5141841-0979-4186-959a-bbb84ab01ac1"
-RESOURCE_GROUP="rg-vnet-demo"
-APP_NAME="app-vnet-demo"
+SUBSCRIPTION_ID="<YOU-SUBSCRIPTION-ID>"
+RESOURCE_GROUP="<YOUR-RESOURCE-GROUP>"
+APP_NAME="<YOUR-APP-NAME>"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_FILE="$SCRIPT_DIR/FoundryAgentJob.csproj"
